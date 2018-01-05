@@ -6,6 +6,7 @@ using System.Threading;
 
 namespace hw15_ClassLib
 {
+    [Serializable]
     public class PC
     {
         public string Name { get; set; }
