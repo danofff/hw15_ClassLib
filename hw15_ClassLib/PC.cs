@@ -43,7 +43,7 @@ namespace hw15_ClassLib
                 Thread.Sleep(rnd.Next(10, 101));
             }
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("Computer {0} is ready to work!",Name);
+            Console.WriteLine("\nComputer {0} is ready to work!",Name);
             Console.ResetColor();
         }
 
@@ -59,7 +59,7 @@ namespace hw15_ClassLib
                 Thread.Sleep(rnd.Next(10, 101));
             }
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Computer {0} is turned off!", Name);
+            Console.WriteLine("\nComputer {0} is turned off!", Name);
             Console.ResetColor();
         }
 
